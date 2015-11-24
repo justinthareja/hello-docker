@@ -6,6 +6,10 @@ app.get('/', function(req, res) {
   res.send('my first docker container!');
 });
 
+app.get('/docker', function(req, res) {
+  res.send('docker automagical deploy');
+});
+
 app.listen(port);
 
 console.log('listening on port...', port);
