@@ -12,7 +12,11 @@ app.get('/docker', function(req, res) {
 
 app.get('/test', function(req, res) {
   res.send('mic check');
-})
+});
+
+app.get('/hello', function(req, res) {
+  res.send('hello');
+});
 
 app.listen(port);
 
