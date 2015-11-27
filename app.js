@@ -6,6 +6,9 @@ app.get('/', function(req, res) {
   res.send('WOOOOOOOOHOOO');
 });
 
+app.get('/hi', function(req, res) {
+  res.send('WihihihihiOOOOOOOOHOOO');
+});
 app.listen(port);
 
 console.log('listening on port...', port);
