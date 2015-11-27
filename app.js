@@ -10,6 +10,10 @@ app.get('/docker', function(req, res) {
   res.send('docker automagical deploy');
 });
 
+app.get('/test', function(req, res) {
+  res.send('mic check');
+})
+
 app.listen(port);
 
 console.log('listening on port...', port);
